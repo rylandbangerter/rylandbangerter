@@ -3,18 +3,18 @@ project:
   output-dir: docs
 
 website:
-  title: "Your_Name - Data Science Portfolio"
+  title: "Ryland Bangerter - Data Science Portfolio"
   favicon: Images/favicon.png
   back-to-top-navigation: true
-  repo-url: https://github.com/username/username.github.io
+  repo-url: https://github.com/rylandbangerter/rylandbangerter.github.io
   #repo-actions: [issue] #if you want to allow others to report issues on your site uncomment this line
 
   page-footer: 
     border: true
-    left: "Your_Name 2024©"
+    left: "Ryland Bangerter 2025©"
     right: 
       - icon: linkedin
-        href: Your_LinkedIn_URL
+        href: https://www.linkedin.com/in/rylandbangerter/
 
   navbar:
     background: primary
@@ -32,10 +32,10 @@ website:
         file: story_telling.qmd
       - text: "Machine Learning"
         file: ml.qmd
-      - text: "Full Stack"
-        file: full_stack.qmd
-      - text: "Competitions"
-        file: competition.qmd
+      # - text: "Full Stack"
+      #   file: full_stack.qmd
+      # - text: "Competitions"
+      #   file: competition.qmd
   
   # learn more about navication here https://quarto.org/docs/websites/website-navigation.html
   # comment out any of the sections below to turn off the sidebar
